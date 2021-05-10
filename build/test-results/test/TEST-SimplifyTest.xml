@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimplifyTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-10T14:50:01" hostname="Trevors-MacBook-Pro.local" time="0.027">
+<testsuite name="SimplifyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-10T16:06:57" hostname="Trevors-MacBook-Pro.local" time="0.031">
   <properties/>
-  <testcase name="addition should be commutative 2()" classname="SimplifyTest" time="0.026"/>
+  <testcase name="variable added to itself, should equal itself()" classname="SimplifyTest" time="0.027"/>
+  <testcase name="addition should be commutative 2()" classname="SimplifyTest" time="0.001"/>
+  <testcase name="variable added to different variable, should not change()" classname="SimplifyTest" time="0.001"/>
   <testcase name="addition should be commutative()" classname="SimplifyTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

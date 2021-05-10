@@ -1,4 +1,17 @@
 class Constant<T>(val c: T) : Operand() {
+    override fun equals(other: Any?): Boolean {
+        if (other == null) return false
+        if (other !is Constant<*>) return false
+        return c == other.c
+    }
+
+    override fun hashCode(): Int {
+        return c?.hashCode() ?: 0
+    }
+
+    override fun toString(): String {
+        return "$c"
+    }
 }
 
 operator fun Int.plus(other: Operand): Expression {
