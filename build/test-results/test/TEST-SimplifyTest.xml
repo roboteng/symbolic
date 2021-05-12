@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimplifyTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2021-05-12T17:41:39" hostname="Trevors-MacBook-Pro.local" time="0.034">
+<testsuite name="SimplifyTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2021-05-12T17:46:20" hostname="Trevors-MacBook-Pro.local" time="0.043">
   <properties/>
-  <testcase name="variables added with constant multiplier should add()" classname="SimplifyTest" time="0.03">
+  <testcase name="variables added with constant multiplier should add()" classname="SimplifyTest" time="0.036">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;3 * x&gt; but was: &lt;2 * x + x&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;3 * x&gt; but was: &lt;2 * x + x&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -104,9 +104,9 @@
 </failure>
   </testcase>
   <testcase name="variable added to itself, should equal itself()" classname="SimplifyTest" time="0.001"/>
-  <testcase name="addition should be commutative 2()" classname="SimplifyTest" time="0.0"/>
-  <testcase name="variable added to different variable, should not change()" classname="SimplifyTest" time="0.0"/>
-  <testcase name="addition should be commutative()" classname="SimplifyTest" time="0.0"/>
+  <testcase name="addition should be commutative 2()" classname="SimplifyTest" time="0.001"/>
+  <testcase name="variable added to different variable, should not change()" classname="SimplifyTest" time="0.001"/>
+  <testcase name="addition should be commutative()" classname="SimplifyTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
