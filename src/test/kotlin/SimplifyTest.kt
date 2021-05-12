@@ -43,4 +43,11 @@ class SimplifyTest {
         val e = x + y
         assertEquals(x + y, simplifier.simplify(e))
     }
+
+    @Test
+    fun `variables added with constant multiplier should add`(){
+        var x = Symbol.x()
+        var e = 2 * x + x
+        assertEquals(3 * x, simplifier.simplify(e))
+    }
 }
