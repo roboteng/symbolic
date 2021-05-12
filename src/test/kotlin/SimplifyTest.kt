@@ -16,7 +16,7 @@ class SimplifyTest {
         val y = Symbol.y()
         val z = Symbol("z")
         val e1 = (x + y) + z
-        assertEquals(simplifier.simplify(e1), e1)
+        assertEquals(e1, simplifier.simplify(e1))
     }
 
     @Test
@@ -26,7 +26,7 @@ class SimplifyTest {
         val z = Symbol("z")
         val e1 = (x + y) + z
         val e2 = x + (y + z)
-        assertEquals(simplifier.simplify(e2), e1)
+        assertEquals(e1, simplifier.simplify(e2))
     }
 
     @Test
